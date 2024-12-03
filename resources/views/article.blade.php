@@ -1,3 +1,7 @@
+@extends('layout')
+
+@section('content')
+
 @if(empty($article))
 <p>There is no such article</p>
 @else
@@ -6,3 +10,5 @@
 <hr>
 <a href="/">Go back</a>
 @endif
+
+@endsection

@@ -17,7 +17,7 @@ use App\Models\Article;
 
 Route::get('/', function () {
     return view('articles', [
-        'heading' => 'Latest Listings',
+        'heading' => 'Latest Articles',
         'articles' => Article::all()
     ]);
 });
